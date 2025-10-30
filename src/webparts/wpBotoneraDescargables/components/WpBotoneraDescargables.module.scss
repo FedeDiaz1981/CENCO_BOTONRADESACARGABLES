@@ -1,0 +1,86 @@
+.wpBotoneraDescargables_38cc0773 {
+  width: 100%;
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+
+/* Contenedor de botones: centrado, responsive y con wrap */
+.links_38cc0773 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Botón Fluent UI (DefaultButton root) */
+.button_38cc0773 {
+  min-width: 220px;
+  height: 44px;
+  font-weight: 600;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  transition: transform .06s ease, box-shadow .12s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover/Active sutil para sensación “dinámica” */
+.button_38cc0773:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0,0,0,.12);
+}
+.button_38cc0773:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0,0,0,.10);
+}
+
+/* Ajustes a subpartes del botón Fluent UI */
+.button_38cc0773 :global(.ms-Button-icon) {
+  margin-right: 6px;
+}
+.button_38cc0773 :global(.ms-Button-label) {
+  font-weight: 600;
+}
+
+/* Mensajes de error centrados */
+.error_38cc0773 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Clases existentes neutras */
+.teams_38cc0773 {}
+.welcome_38cc0773 {}
+.welcomeImage_38cc0773 {}
+
+/* fuerza visibilidad del contenedor del ícono del botón */
+.button_38cc0773 :global(.ms-Button-icon) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  min-width: 16px;
+  margin-right: 6px;
+}
+
+/* fuerza el uso de la fuente MDL2 y quita cualquier fondo heredado */
+.button_38cc0773 :global(.ms-Icon) {
+  font-family: "FabricMDL2Icons";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: inline-block;
+  background: none !important;  /* evita el rectángulo de color */
+  color: inherit;
+}

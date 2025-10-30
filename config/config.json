@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wp-botonera-descargables-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpBotoneraDescargables/WpBotoneraDescargablesWebPart.js",
+          "manifest": "./src/webparts/wpBotoneraDescargables/WpBotoneraDescargablesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WpBotoneraDescargablesWebPartStrings": "lib/webparts/wpBotoneraDescargables/loc/{locale}.js"
+  }
+}

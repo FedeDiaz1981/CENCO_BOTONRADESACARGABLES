@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wp-cenco-botonera-descargables-client-side-solution",
+    "id": "66a37a9b-1928-47fd-b597-257a7ff18888",
+    "version": "1.5.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "wp_CENCO_BotoneraDescargables description"
+      },
+      "longDescription": {
+        "default": "wp_CENCO_BotoneraDescargables description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "wp-cenco-botonera-descargables Feature",
+        "description": "The feature that activates elements of the wp-cenco-botonera-descargables solution.",
+        "id": "8024c0aa-f05a-4e5c-9304-84c6cfdef95b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/wp-cenco-botonera-descargables.sppkg"
+  }
+}
