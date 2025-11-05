@@ -3,7 +3,7 @@
   "solution": {
     "name": "wp-cenco-botonera-descargables-client-side-solution",
     "id": "66a37a9b-1928-47fd-b597-257a7ff18888",
-    "version": "1.5.0.0",
+    "version": "3.0.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
