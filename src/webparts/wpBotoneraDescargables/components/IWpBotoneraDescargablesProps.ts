@@ -5,5 +5,8 @@ export interface IWpBotoneraDescargablesProps {
   spHttpClient: SPHttpClient;
  applyFilter?: boolean;
   filterFieldInternalName?: string; 
-  filterValue?: string;             
+  filterValue?: string;
+   showProveedor?: boolean;     
+   currentUserLogin?: string;
+  currentUserEmail?: string;      
 }
